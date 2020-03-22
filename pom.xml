@@ -19,6 +19,7 @@
     <modules>
         <module>MultidbJdbcStartup</module>
         <module>MultidbJpaStartup</module>
+        <module>MultidbMybatisStartup</module>
     </modules>
 
 
