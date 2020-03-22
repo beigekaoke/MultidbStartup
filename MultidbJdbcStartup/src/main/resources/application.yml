@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    master:
+      username: root
+      password: root
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/order1
+      driver-class-name: com.mysql.jdbc.Driver
+    slave:
+      username: root
+      password: root
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/order2
+      driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+logging:
+  level:
+    root: info
+  path: ./logs
