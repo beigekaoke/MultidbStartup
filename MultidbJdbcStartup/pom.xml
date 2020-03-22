@@ -13,7 +13,6 @@
 
     <groupId>com.flagship</groupId>
     <artifactId>MultidbJdbcStartup</artifactId>
-    <version>1.0-SNAPSHOT</version>
 	<name>MultidbJdbcStartup</name>
     <description>Multidb By Jdbc Spring Boot Demo</description>
 
