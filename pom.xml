@@ -18,6 +18,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>MultidbJdbcStartup</module>
+        <module>MultidbJpaStartup</module>
     </modules>
 
 
