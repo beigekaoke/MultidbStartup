@@ -91,3 +91,63 @@
 2020-03-21 23:23:07.183  INFO 16324 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 2020-03-21 23:23:07.185  INFO 16324 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-03-21 23:23:07.339  INFO 16324 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-22 16:34:03.611  INFO 13604 --- [main] c.flagship.multidbJdbcStartup.AppTests   : Starting AppTests on admin-HP with PID 13604 (started by admin in D:\java_projects\MultidbStartup\MultidbJdbcStartup)
+2020-03-22 16:34:03.629  INFO 13604 --- [main] c.flagship.multidbJdbcStartup.AppTests   : No active profile set, falling back to default profiles: default
+2020-03-22 16:34:03.959  INFO 13604 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50029372: startup date [Sun Mar 22 16:34:03 CST 2020]; root of context hierarchy
+2020-03-22 16:34:16.555  INFO 13604 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:34:17.246  INFO 13604 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@50029372: startup date [Sun Mar 22 16:34:03 CST 2020]; root of context hierarchy
+2020-03-22 16:34:17.530  INFO 13604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/list]}" onto public void com.flagship.multidbJdbcStartup.controller.JdbcMultidbController.list()
+2020-03-22 16:34:17.536  INFO 13604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-22 16:34:17.538  INFO 13604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-22 16:34:17.610  INFO 13604 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:34:17.612  INFO 13604 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:34:18.307  INFO 13604 --- [main] c.flagship.multidbJdbcStartup.AppTests   : Started AppTests in 17.442 seconds (JVM running for 24.454)
+2020-03-22 16:34:18.884  INFO 13604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-22 16:34:23.592  INFO 13604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-22 16:34:24.475  INFO 13604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-22 16:34:24.881  INFO 13604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-22 16:34:25.478  INFO 13604 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@50029372: startup date [Sun Mar 22 16:34:03 CST 2020]; root of context hierarchy
+2020-03-22 16:34:25.520  INFO 13604 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-03-22 16:34:25.825  INFO 13604 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-03-22 16:34:25.827  INFO 13604 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-22 16:34:25.912  INFO 13604 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-22 16:35:28.393  INFO 3704 --- [main] c.flagship.multidbJdbcStartup.AppTests   : Starting AppTests on admin-HP with PID 3704 (started by admin in D:\java_projects\MultidbStartup\MultidbJdbcStartup)
+2020-03-22 16:35:28.395  INFO 3704 --- [main] c.flagship.multidbJdbcStartup.AppTests   : No active profile set, falling back to default profiles: default
+2020-03-22 16:35:28.447  INFO 3704 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6e2829c7: startup date [Sun Mar 22 16:35:28 CST 2020]; root of context hierarchy
+2020-03-22 16:35:30.853  INFO 3704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:35:31.146  INFO 3704 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6e2829c7: startup date [Sun Mar 22 16:35:28 CST 2020]; root of context hierarchy
+2020-03-22 16:35:31.250  INFO 3704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/list]}" onto public void com.flagship.multidbJdbcStartup.controller.JdbcMultidbController.list()
+2020-03-22 16:35:31.253  INFO 3704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-22 16:35:31.255  INFO 3704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-22 16:35:31.290  INFO 3704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:35:31.291  INFO 3704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:35:31.637  INFO 3704 --- [main] c.flagship.multidbJdbcStartup.AppTests   : Started AppTests in 4.415 seconds (JVM running for 7.965)
+2020-03-22 16:35:31.809  INFO 3704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-22 16:35:33.426  INFO 3704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-22 16:35:34.258  INFO 3704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-22 16:35:34.494  INFO 3704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-22 16:35:34.621  INFO 3704 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6e2829c7: startup date [Sun Mar 22 16:35:28 CST 2020]; root of context hierarchy
+2020-03-22 16:35:34.681  INFO 3704 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-03-22 16:35:34.979  INFO 3704 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-03-22 16:35:34.982  INFO 3704 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-22 16:35:35.129  INFO 3704 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-22 16:39:10.940  INFO 9268 --- [main] c.flagship.multidbJdbcStartup.AppTests   : Starting AppTests on admin-HP with PID 9268 (started by admin in D:\java_projects\MultidbStartup\MultidbJdbcStartup)
+2020-03-22 16:39:10.942  INFO 9268 --- [main] c.flagship.multidbJdbcStartup.AppTests   : No active profile set, falling back to default profiles: default
+2020-03-22 16:39:11.034  INFO 9268 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@e3b3b2f: startup date [Sun Mar 22 16:39:11 CST 2020]; root of context hierarchy
+2020-03-22 16:39:13.324  INFO 9268 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:39:13.576  INFO 9268 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@e3b3b2f: startup date [Sun Mar 22 16:39:11 CST 2020]; root of context hierarchy
+2020-03-22 16:39:13.679  INFO 9268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/list]}" onto public void com.flagship.multidbJdbcStartup.controller.JdbcMultidbController.list()
+2020-03-22 16:39:13.683  INFO 9268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-22 16:39:13.686  INFO 9268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-22 16:39:13.724  INFO 9268 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:39:13.725  INFO 9268 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-22 16:39:14.203  INFO 9268 --- [main] c.flagship.multidbJdbcStartup.AppTests   : Started AppTests in 3.98 seconds (JVM running for 5.392)
+2020-03-22 16:39:14.543  INFO 9268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-22 16:39:17.023  INFO 9268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-22 16:39:17.657  INFO 9268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-22 16:39:17.824  INFO 9268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-22 16:39:18.274  INFO 9268 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@e3b3b2f: startup date [Sun Mar 22 16:39:11 CST 2020]; root of context hierarchy
+2020-03-22 16:39:18.302  INFO 9268 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-03-22 16:39:18.347  INFO 9268 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-03-22 16:39:18.357  INFO 9268 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-22 16:39:18.613  INFO 9268 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
